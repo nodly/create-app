@@ -1,0 +1,25 @@
+{
+  "name": "@nodly/create-app",
+  "version": "0.0.0",
+  "description": "A simple wrapper for create-next-app.",
+  "author": "Nodly",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodly/create-app.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "CHANGELOG.md"
+  ],
+  "bin": "./create-app.js",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "@nodly/prettier-config": "1.0.2",
+    "prettier": "2.5.1"
+  }
+}
