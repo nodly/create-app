@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: yarn --immutable
       - name: Verify formatting
-        run: yarn prettier --check .
+        run: yarn format:check
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
