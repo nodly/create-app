@@ -12,8 +12,7 @@
     "access": "public"
   },
   "files": [
-    "cli.js",
-    "index.js",
+    "create-app.js",
     "CHANGELOG.md"
   ],
   "bin": "./create-app.js",
