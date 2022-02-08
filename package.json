@@ -16,19 +16,15 @@
     "CHANGELOG.md"
   ],
   "bin": "./create-app.js",
-  "scripts": {
-    "format": "prettier --write \"{**/*,*}.{js,jsx,ts,tsx,css,scss,json,md,yml,yaml}\"",
-    "format:check": "prettier --check \"{**/*,*}.{js,jsx,ts,tsx,css,scss,json,md,yml,yaml}\""
-  },
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
     "@nodly/prettier-config": "1.0.2",
     "@semantic-release/changelog": "6.0.1",
-    "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "8.0.2",
-    "@semantic-release/npm": "9.0.0",
     "prettier": "2.5.1",
     "semantic-release": "18.0.1"
+  },
+  "resolutions": {
+    "npm/chalk": "^4.1.2"
   }
 }
