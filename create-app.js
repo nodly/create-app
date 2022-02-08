@@ -6,7 +6,7 @@ const { promisify } = require('util');
 const execAsync = promisify(exec);
 const [...args] = process.argv;
 
-(async function run() {
+async function run() {
   const projectName = args[2];
   const repositoryUrl = 'https://github.com/nodly/next-template';
 
@@ -15,4 +15,6 @@ const [...args] = process.argv;
   } catch (error) {
     console.error(error);
   }
-})();
+}
+
+run();
