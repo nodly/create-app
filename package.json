@@ -16,7 +16,7 @@
     "CHANGELOG.md"
   ],
   "bin": "./create-app.js",
-  "packageManager": "yarn@3.2.4",
+  "packageManager": "yarn@3.6.4",
   "devDependencies": {
     "@nodly/prettier-config": "2.0.1",
     "@semantic-release/changelog": "6.0.3",
